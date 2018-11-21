@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-  int WinLotteryNo[10] = {1522, 1711, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
+  int WinLotteryNo[20] = {1522, 1711, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
   float WinAmount[10] = {50000, 10000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
   int N = 10;
   int i, wonnnnn; 
@@ -17,7 +17,7 @@ void main()
     {
        if (YourLotteryNo == WinLotteryNo[i]) 
        {
-          printf("Congratulations You Won %8.2f baht\n", WinAmount[i]); 
+          printf("Congratulations You Won %8.2f baht jing jing na\n", WinAmount[i]); 
           won = 1;
        }
     }
